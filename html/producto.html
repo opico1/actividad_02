@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <title>Registro de producto</title>
+</head>
+<body>
+    <table class="tabla2">
+        <h1>Registro de producto</h1>
+        <form action="mensaje.html" method="get">
+            <tr>
+                <td><label>Codigo:</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label>Descripción:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Código de barra</label></td>
+                <td><input type="number" required></td>
+            </tr>
+            <tr>
+                <td><label>Precio unitario:</label></td>
+                <td>
+                    <input type="number" placeholder="$ 0.00" step="0.01" required>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Stock:</label></td>
+                <td><input type="number" required></td>
+            </tr>
+            <tr>
+                <td><label>Proveedor:</label></td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td><label>Estado:</label></td>
+                <td>
+                    <input type="checkbox">
+                    <label>Activo</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Categoría</label></td>
+                <td>
+                    <select name="categoria" id="categoria">
+                        <option value="">Seleccione una Categoria</option>
+                        <option value="Cat_1">categoría 1</option>
+                        <option value="Cat_2">categoría 2</option>
+                        <option value="Cat_3">categoría 3</option>
+                        <option value="Cat_4">categoría 4</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Guardar" class="btnGuardar">
+                    <a href="../index.html"><button type="button" class="btnCancelar" >Cancelar</button></a>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>

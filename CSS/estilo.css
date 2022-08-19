@@ -1,0 +1,91 @@
+
+/*CSS para pagina index.html*/
+
+th, td, tr, .tabla1
+{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+strong
+{
+    font-size: large;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.btnNuevo
+{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 2);
+    background: rgb(25, 184, 65);
+    border-color: rgb(25, 184, 65);
+}
+
+.btnEditar, .btnEliminar
+{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 2);
+}
+
+.btnEditar
+{
+    background: rgb(66, 184, 221);
+    border-color: rgb(66, 184, 221);
+}
+
+.btnEliminar
+{
+    background: rgb(202, 60, 60);
+    border-color: rgb(202, 60, 60);
+}
+
+/*CSS para pagina producto.html*/
+
+.tabla2
+{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 20px auto 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input
+{
+    margin: 10px 15px 10px 20px;
+}
+
+.btnGuardar, .btnCancelar
+{
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 2);
+}
+
+.btnGuardar
+{
+    background: blue;
+    border-color: blue;
+    
+}
+
+.btnCancelar
+{
+    background: red;
+    border-color: red;
+}
+
+.guardado
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
